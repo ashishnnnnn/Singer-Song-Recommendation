@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 0.4rem;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.song {
+  font-size: 2rem;
+  display: block;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
