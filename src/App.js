@@ -2,6 +2,17 @@ import React, { useState } from "react";
 import "./styles.css";
 import { songs } from "./song_list.js";
 
+// const songs = {
+//   Mohit: ["Saiyaara", "Tum Se Hi", "Tum Ho", "Matarghasti"],
+//   Arijit: ["Tum Hi Ho", "Jo Bheji Thi Duwa", "Aai Dil Hai Mushqil"],
+//   Udit: [
+//     "Cheez Badi",
+//     "Ae Mere Humsafar",
+//     "Jo Bhi Kasmein",
+//     "Tip Tip Barsa Pani"
+//   ]
+// };
+
 export default function App() {
   var [singer, set_singer] = useState("Arijit");
   function onClickHandler(singer) {
@@ -21,6 +32,7 @@ export default function App() {
             <div className="song-unit" key={c}>
               <p className="song">{c[0]}</p>
               <p className="rating">Ratings - {c[1]}</p>
+              <p className="movie">Movie - {c[2]}</p>
             </div>
           );
         })}
