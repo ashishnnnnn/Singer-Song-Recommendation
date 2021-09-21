@@ -19,3 +19,7 @@ button {
   display: block;
   background-color: gold;
 }
+
+.movie{
+  font-size: 1.5rem
+}
